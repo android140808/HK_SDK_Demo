@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item android:state_checked="true"  -->
+    <!--android:drawable="@drawable/bg_select_week"/> &lt;!&ndash; pressed &ndash;&gt;-->
+    <!--<item android:drawable="@drawable/bg_not_select_week" />-->
+    <item android:drawable="@drawable/alert_week_shape" android:state_checked="false" />
+    <item android:drawable="@drawable/alert_week_no_shape" android:state_checked="true" />
+</selector>

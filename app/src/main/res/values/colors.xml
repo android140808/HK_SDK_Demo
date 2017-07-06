@@ -1,0 +1,49 @@
+<resources>
+    <!--原色调-->
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="yellow">#ffff00</color>
+    <color name="pink">#f8f8f6</color>
+    <color name="green">#75b629</color>
+    <color name="lightgreen">#A8B81A</color>
+    <color name="orange">#F9AB21</color>
+    <color name="blue">#2193E6</color>
+    <color name="lightblue">#882193E6</color>
+    <color name="gray">#545454</color>
+    <color name="gray_middle">#B7B7B7</color>
+    <color name="gray_small">#b6b6b6</color>
+    <!--主色调-->
+    <color name="header_bg_color">#ff50BFAE</color>
+    <color name="bg_activity_color">#f3f5f4</color>
+
+    <color name="gray1">#9E9E9E</color>
+    <color name="gray2">#E3E3E3</color>
+    <color name="gray3">#818181</color>
+    <color name="gray4">#D5D4D3</color>
+    <color name="gray5">#EEEEEE</color>
+    <color name="gray_bg">#FFEBEAE8</color>
+
+    <color name="uv_bg">#ECEDED</color>
+
+    <color name="red1">#df0018</color>
+    <color name="red2">#FFE03718</color>
+    <color name="red3">#d2001d</color>
+    <color name="red4">#FFDC4355</color>
+    <color name="red_line">#FFDE0019</color>
+    <color name="red_max">#FFDD0018</color>
+    <color name="red_bg">#FFDF0018</color>
+
+    <!--心情类型柱状图-->
+    <color name="mood_calm">#fd8150</color>
+    <color name="mood_moderate">#66d1ff</color>
+    <color name="mood_depressed">#28b7c1</color>
+    <!--疲劳类型柱状图-->
+    <color name="tired_energetic">#56cd3e</color>
+    <color name="tired_moderate">#66d1ff</color>
+    <color name="tired_slight">#e3cb24</color>
+    <color name="tired_serious">#ad7616</color>
+
+    <!--main activity-->
+    <color name="goal_font_color">#959595</color>
+</resources>

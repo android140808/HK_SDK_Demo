@@ -1,0 +1,9 @@
+<resources>
+    <string name="obtainBean_is_null">response is null,try again later</string>
+
+    <!--朋友圈-->
+    <string name="time_just_now_ago">&#160;Just Now</string>
+    <string name="time_minutes_ago">&#160;minutes ago</string>
+    <string name="time_hours_ago">&#160;hours ago</string>
+    <string name="time_days_ago">&#160;days ago</string>
+</resources>

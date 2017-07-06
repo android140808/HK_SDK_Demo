@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/layout_main_title" />
+
+    <cn.appscomm.l38t.UI.showView.NoScrollViewPager
+        android:id="@+id/nsvp_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#bdbdbd"></cn.appscomm.l38t.UI.showView.NoScrollViewPager>
+
+</LinearLayout>

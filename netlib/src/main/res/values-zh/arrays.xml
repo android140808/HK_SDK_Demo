@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--http response code tip-->
+    <string-array name="http_code_tip">
+        <item> -9999,发生错误，请稍候重试</item>
+        <item> -9528,请求序列号不能为空  </item>
+        <item> -9527,登录状态失效，请重新登录</item>
+        <item> -9526,登录状态失效，请重新登录</item>
+        <item> -9525,登录状态已过期，请重新登录</item>
+        <item> 0	,成功</item>
+        <item> 1000	,序列号不能为空 </item>
+        <item> 1001	,版本号不能为空 </item>
+        <item> 1002	,客户端类型不能为空  </item>
+        <item> 1003	,用户ID不能为空</item>
+        <item> 1004	,用户信息ID不能为空</item>
+        <item> 1005	,activity code can not be null </item>
+        <item> 1006	,activity code is invalid </item>
+        <item> 1007	,param key can not be null! </item>
+        <item> 2001	,账号ID不能为空</item>
+        <item> 2003	,DDID不能为空 </item>
+        <item> 2005	,DDID不存在 </item>
+        <item> 2006	,邀请人的DD不能为空 </item>
+        <item> 2007	,朋友圈的DD不能为空</item>
+        <item> 2008	,你们已经是朋友 </item>
+        <item> 2009	,memberId can not be null </item>
+        <item> 2010	,Member command can not be null </item>
+        <item> 2011	,Member handler status invalid value </item>
+        <item> 2012	,用户ID和DDID不能同时为空 </item>
+        <item> 2013	,查询日期不能为空 </item>
+        <item> 2014	,查询日期格式 &#060;yyyy-mm-dd&#062; 错误! </item>
+        <item> 2015	,查询结束日期不能为空 </item>
+        <item> 2017	,新密码不能为空 </item>
+        <item> 2018	,密码错误 </item>
+        <item> 2019	,icon empty! </item>
+        <item> 2020	,no server urlconfig! </item>
+        <item> 2021	,no param key config! </item>
+        <item> 4003	,product code can not be null </item>
+        <item> 4004	,the device is binded by another user </item>
+        <item> 4005,config details can not be null! </item>
+        <item> 4006,paramIds can not be null! </item>
+        <item> 4007,remind details can not be null! </item>
+        <item> 4008	,remind ids can not be null! </item>
+        <item> 4010,remind id own to another! </item>
+        <item> 7000,pressure detail can not be null </item>
+        <item> 7001	,pressureTtime can not be null </item>
+        <item> 7002	,pressureTtime format error </item>
+        <item> 8000	,账户ID不能为空</item>
+        <item> 8001	,Customer code can not be null </item>
+        <item> 8002	,账号已经存在 </item>
+        <item> 8003	,账户不存在 </item>
+        <item> 8004	,开始时间不能为空 </item>
+        <item> 8005	,结束时间不能为空</item>
+        <item> 8006	,开始时间格式错误( &#060;yyyy-MM-ddHH:mm :ss&#062; ) </item>
+        <item> 8007,结束时间格式错误( &#060;yyyy-MM-ddHH:mm :ss&#062; ) </item>
+        <item> 8008,设备ID不能为空</item>
+        <item> 8009,设备类型不能为空</item>
+        <item> 8010,心率数值详情不能为空</item>
+        <item> 8011	,Config detail can not be null </item>
+        <item> 8012	,weightTime Date format &#060;yyyy-MM-ddHH:mm :ss&#062; error </item>
+        <item> 8013	,sport detail can not be null </item>
+        <item> 8014,账号尚未激活 </item>
+        <item> 8015	,Customer not exist </item>
+        <item> 8016,product not exist </item>
+        <item> 8017,设备版本号不能为空 </item>
+        <item> 8018,the user don\&#039;t pair the device </item>
+        <item> 8019,the user don\&#039;t pair the device </item>
+        <item> 8020	,睡眠数据为空 </item>
+        <item> 8021	,sleep data upload endtime repeat </item>
+        <item> 8022	,验证码错误或已过期</item>
+        <item> 9998,密码不能为空</item>
+        <item> 9999	,服务器未知错误</item>
+    </string-array>
+</resources>

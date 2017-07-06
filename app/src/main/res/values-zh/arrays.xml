@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="week_desc">
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+        <item>周日</item>
+    </string-array>
+
+    <string-array name="week_english">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="main_menus">
+        <item> 设备 </item>
+        <!-- <item> 提醒 </item> -->
+        <!-- <item> 查找好友 </item> -->
+        <item> 目标 </item>
+        <item> 设置 </item>
+        <item> 账户 </item>
+        <!-- <item> 分享 </item> -->
+        <item> 反馈 </item>
+    </string-array>
+
+    <string-array name="main_menus_10c">
+        <item> 设备 </item>
+        <item> 提醒 </item>
+        <!-- <item> 查找好友 </item> -->
+        <item> 目标 </item>
+        <item> 设置 </item>
+        <item> 账户 </item>
+        <!-- <item> 分享 </item> -->
+        <item> 反馈 </item>
+    </string-array>
+
+    <string-array name="main_menus_young">
+        <item> 设备 </item>
+        <item> 提醒 </item>
+        <item> 目标 </item>
+        <item> 锻炼 </item>
+        <item> 设置 </item>
+        <item> 账户 </item>
+        <item> 反馈 </item>
+    </string-array>
+
+    <string-array name="main_menus_common">
+        <item> 设备 </item>
+        <item> 提醒 </item>
+        <item> 锻炼 </item>
+        <item> 查找好友 </item>
+        <item> 目标 </item>
+        <item> 设置 </item>
+        <item> 账户 </item>
+        <item> 分享 </item>
+        <item> 反馈 </item>
+    </string-array>
+
+    <string-array name="main_advanced_10">
+        <item> 单位 </item>
+        <item> 通知 </item>
+        <item> 预设睡眠 </item>
+        <item> 系统信息 </item>
+        <item> 关于我们 </item>
+    </string-array>
+
+    <string-array name="main_advanced_young">
+        <item> 单位 </item>
+        <item> 通知 </item>
+        <item> 心率 </item>
+        <item> 表盘 </item>
+        <item> 拍照 </item>
+        <item> 久坐提醒 </item>
+        <item> 振动 </item>
+        <item> 预设睡眠 </item>
+        <item> 系统信息 </item>
+        <item> 关于我们 </item>
+    </string-array>
+
+
+    <string-array name="main_advanced_common">
+        <item> 单位 </item>
+        <item> 通知 </item>
+        <item> 心率 </item>
+        <item> 表盘 </item>
+        <item> 拍照 </item>
+        <item> 久坐提醒 </item>
+        <item> 振动 </item>
+        <item> 预设睡眠 </item>
+        <item> 系统信息 </item>
+        <item> 关于我们 </item>
+    </string-array>
+
+
+    <string-array name="device_time_formats">
+        <item>TIME+BATTERY+HEART RATE\n24-H</item>
+        <item>TIME+BATTERY+HEART RATE\n12-H</item>
+        <item>TIME+DATE+BATTERY+HEART RATE\n24-H</item>
+        <item>TIME+DATE+BATTERY+HEART RATE\n12-H</item>
+        <item>VERTICAL\nTIME+DATE+BATTERY\n12-H</item>
+        <item>VERTICAL\nTIME+DATE+BATTERY\n24-H </item>
+        <item>VERTICAL\nTIME+DATE+BATTERY+HEART RATE\n12-H</item>
+        <item>VERTICAL\nTIME+DATE+BATTERY+HEART RATE\n24-H</item>
+    </string-array>
+</resources>

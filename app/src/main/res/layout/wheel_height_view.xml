@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <!-- android:background="#F0F0F0" -->
+
+    <!--android:background="@drawable/btn_style_alert_dialog_background"-->
+    <LinearLayout
+        android:id="@+id/pop1_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc"
+            android:visibility="visible"/>
+
+        <RelativeLayout
+            android:id="@+id/pop2_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+          
+            
+            android:orientation="horizontal" >
+            <!--android:background="@drawable/cancel"-->
+            <Button
+                android:id="@+id/HeightWheelSave"
+                android:layout_width="75dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:background="@color/white"
+
+                android:gravity="center"
+                android:text="@string/sure"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/header_bg_color" />
+
+            <!--android:background="@drawable/login_btn_selector"-->
+            <Button
+                android:id="@+id/HeightWheelCancel"
+                android:layout_width="75dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:background="@color/white"
+                android:gravity="center"
+                android:textColor="@color/header_bg_color"
+                android:text="@string/cancle"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            </RelativeLayout>
+        <!--android:background="@drawable/btn_style_alert_dialog_background"-->
+        <LinearLayout
+            android:id="@+id/pop_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray2"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <kankan.wheel.widget.WheelView
+                android:id="@+id/Height_Int"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="-1dp"
+                />
+
+            <kankan.wheel.widget.WheelView
+                android:id="@+id/Height_Dec"
+                android:layout_weight="1"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="-1dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <kankan.wheel.widget.WheelView
+                android:id="@+id/Height_Unit"
+                android:layout_weight="1"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="-1dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

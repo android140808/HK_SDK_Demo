@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_work_data"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="5dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_workout_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:id="@+id/iv_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/workouts_circle" />
+
+        <ImageView
+            android:id="@+id/iv_line"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/iv_circle"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/workouts_line" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_workouts_no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="@string/no_more_data"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rl_workouts_data"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/circle_rectangle_shape"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/tv_work_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="01/13/2017 10:49PM"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_work_time"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_workouts_step"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/workouts_step"
+                android:gravity="center"
+                android:text="7000"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_workouts_cal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/workouts_cal"
+                android:gravity="center"
+
+                android:text="380"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_workouts_distance"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/workouts_distance"
+                android:gravity="center"
+
+                android:text="3.5"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_workouts_timer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/workouts_timer"
+
+                android:gravity="center"
+                android:text="6.2"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_workouts_heart"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+
+                android:drawableTop="@drawable/workouts_heart"
+                android:gravity="center"
+                android:text="68avg"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

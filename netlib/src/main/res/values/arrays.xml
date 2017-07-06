@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--http response code tip-->
+    <string-array name="http_code_tip">
+        <item>-9999	,unknow error，try again later </item>
+        <item>-9528,access seq can not be null  </item>
+        <item>-9527	,accessToken can not be null  </item>
+        <item>-9526	,invalid access token  </item>
+        <item>-9525	,access token is Expired  </item>
+        <item>0	    ,successful</item>
+        <item>1000	,Seq can not be null  </item>
+        <item>1001	,versionNo can not be null  </item>
+        <item>1002	,Client type can not be null  </item>
+        <item>1003	,userId can not be null </item>
+        <item>1004	,userInfoId can not be null </item>
+        <item>1005	,activity code can not be null </item>
+        <item>1006	,activity code is invalid </item>
+        <item>1007	,param key can not be null! </item>
+        <item>2001	,accountId can not be null </item>
+        <item>2003	,dd_id can not be null </item>
+        <item>2005	,The dd_id is not exist! </item>
+        <item>2006	,Invite peoples\&#039; DD can not be null </item>
+        <item>2007	,friends\&#039; DD can not be null </item>
+        <item>2008	,You are already friends </item>
+        <item>2009	,memberId can not be null </item>
+        <item>2010	,Member command can not be null </item>
+        <item>2011	,Member handler status invalid value </item>
+        <item>2012	,accountId and ddId can not be null at the same time </item>
+        <item>2013	,queryDate can not be null </item>
+        <item>2014	,query Date format &#060;yyyy-mm-dd&#062; error! </item>
+        <item>2015	,queryDateEnd can not be null </item>
+        <item>2017	,new password can not be null </item>
+        <item>2018	,password error! </item>
+        <item>2019	,icon empty! </item>
+        <item>2020	,no server urlconfig! </item>
+        <item>2021	,no param key config! </item>
+        <item>4003	,product code can not be null </item>
+        <item>4004	,the device is binded by another user </item>
+        <item>4005 ,config details can not be null! </item>
+        <item>4006 ,paramIds can not be null! </item>
+        <item>4007 ,remind details can not be null! </item>
+        <item>4008	,remind ids can not be null! </item>
+        <item>4010 ,remind id own to another! </item>
+        <item>7000 ,pressure detail can not be null </item>
+        <item>7001	,pressureTtime can not be null </item>
+        <item>7002	,pressureTtime format error </item>
+        <item>8000	,accountId can not be null </item>
+        <item>8001	,Customer code can not be null </item>
+        <item>8002	,The account has exist! </item>
+        <item>8003	,The account has not exist! </item>
+        <item>8004	,startTime can not be null </item>
+        <item>8005	,endTime can not be null </item>
+        <item>8006	,startTime Date format &#060;yyyy-MM-ddHH:mm :ss&#062; error </item>
+        <item>8007 ,endTime Date format &#060;yyyy-MM-ddHH:mm :ss&#062; error </item>
+        <item>8008 ,deviceId can not be null </item>
+        <item>8009 ,deviceType can not be null </item>
+        <item>8010 ,Heart rate detail can not be null </item>
+        <item>8011	,Config detail can not be null </item>
+        <item>8012	,weightTime Date format &#060;yyyy-MM-ddHH:mm :ss&#062; error </item>
+        <item>8013	,sport detail can not be null </item>
+        <item>8014 ,The account is inactivity! </item>
+        <item>8015	,Customer not exist </item>
+        <item>8016 ,product not exist </item>
+        <item>8017 ,Device version can not be null </item>
+        <item>8018 ,the user don\&#039;t pair the device </item>
+        <item>8019 ,the user don\&#039;t pair the device </item>
+        <item>8020	,sleep data empty </item>
+        <item>8021	,sleep data upload endtime repeat </item>
+        <item>8022	,verification code error or timeout! </item>
+        <item>9998 ,password can not be null </item>
+        <item>9999	,unknow error from the server </item>
+    </string-array>
+</resources>

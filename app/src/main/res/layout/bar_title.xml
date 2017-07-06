@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_title_height"
+        android:background="@drawable/bg_title">
+
+        <RelativeLayout
+            android:id="@+id/ll_bar_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:id="@+id/tv_bar_left"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/topbtn_rebutn_btn_selector"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/layout_title_text_size"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_bar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/layout_title_text_size"/>
+
+        <LinearLayout
+            android:id="@+id/ll_bar_right"
+            android:layout_width="@dimen/layout_title_height"
+            android:layout_height="@dimen/layout_title_height"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/layout_x_15"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_bar_right"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:gravity="right|center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/layout_title_text_size"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

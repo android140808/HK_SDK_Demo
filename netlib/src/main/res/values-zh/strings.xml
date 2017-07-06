@@ -1,0 +1,9 @@
+<resources>
+    <string name="obtainBean_is_null">服务器返回解析失败，请稍候重试</string>
+
+    <!--朋友圈-->
+    <string name="time_just_now_ago">&#160;刚刚</string>
+    <string name="time_minutes_ago">&#160;分钟前</string>
+    <string name="time_hours_ago">&#160;小时前</string>
+    <string name="time_days_ago">&#160;天前</string>
+</resources>

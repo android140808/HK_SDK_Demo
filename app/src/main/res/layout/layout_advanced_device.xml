@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp">
+
+    <TextView
+        android:id="@+id/tv_advanced_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:paddingLeft="10dip"
+        android:text="@string/units"
+        android:textColor="@android:color/black"
+        android:textSize="18dip"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgv_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dip"
+        android:background="@mipmap/more" />
+
+    <TextView
+        android:id="@+id/tv_advanced_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/imgv_unit"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="40dp"
+        android:text="Miles &amp; Pound"
+        android:textColor="@color/header_bg_color"
+        android:textSize="16dip"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@color/gray1" />
+
+</RelativeLayout>

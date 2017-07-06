@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dip"
+        android:gravity="left"
+        android:padding="8dp"
+        android:text="@string/remainds_type"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="#fff"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/rp_remainds_type"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="3dip"
+            android:layout_marginTop="3dip"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radiobutton1"
+                android:layout_width="0px"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="false"
+                android:drawableTop="@drawable/rb_sport_selector"
+                android:gravity="center"
+                android:text="@string/remind_type_sport"
+                android:textSize="10dip"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radiobutton2"
+                android:layout_width="0px"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:button="@null"
+                android:drawableTop="@drawable/rb_sleep_selector"
+                android:gravity="center"
+                android:text="@string/remind_type_sleep"
+                android:textSize="10dip"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radiobutton3"
+                android:layout_width="0px"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:button="@null"
+                android:drawableTop="@drawable/rb_eat_selector"
+                android:gravity="center"
+                android:text="@string/remind_type_eat"
+                android:textSize="10dip"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radiobutton4"
+                android:layout_width="0px"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:button="@null"
+                android:drawableTop="@drawable/rb_medicine_selector"
+                android:gravity="center"
+                android:text="@string/remind_type_medicine"
+                android:textSize="10dip"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radiobutton5"
+                android:layout_width="0px"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:button="@null"
+                android:drawableTop="@drawable/rb_wake_up_selector"
+                android:gravity="center"
+                android:text="@string/remind_type_wake_up"
+                android:textSize="10dip"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radiobutton6"
+                android:layout_width="0px"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:button="@null"
+                android:drawableTop="@drawable/rb_defined_selector"
+                android:gravity="center"
+                android:text="@string/remind_type_custom"
+                android:textSize="10dip"
+                android:textStyle="bold" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="left"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/add_note"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_note"
+            android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="left"
+            android:padding="8dp"
+            android:textColor="#000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dip"
+        android:gravity="left"
+        android:padding="8dp"
+        android:text="@string/repeat"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ll_week"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <ToggleButton
+            android:id="@+id/togglebutton_time1"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:background="@drawable/toggle_week_selector"
+            android:checked="false"
+            android:textColor="#fff"
+            android:textOff="@string/reminder_m"
+            android:textOn="@string/reminder_m"
+            android:textSize="18sp" />
+
+        <ToggleButton
+            android:id="@+id/togglebutton_time2"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/toggle_week_selector"
+            android:textColor="#fff"
+            android:textOff="@string/reminder_tu"
+            android:textOn="@string/reminder_tu"
+            android:textSize="18sp" />
+
+        <ToggleButton
+            android:id="@+id/togglebutton_time3"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/toggle_week_selector"
+            android:textColor="#fff"
+            android:textOff="@string/reminder_w"
+            android:textOn="@string/reminder_w"
+            android:textSize="18sp" />
+
+        <ToggleButton
+            android:id="@+id/togglebutton_time4"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/toggle_week_selector"
+            android:textColor="#fff"
+            android:textOff="@string/reminder_th"
+            android:textOn="@string/reminder_th"
+            android:textSize="18sp" />
+
+        <ToggleButton
+            android:id="@+id/togglebutton_time5"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/toggle_week_selector"
+            android:textColor="#fff"
+            android:textOff="@string/reminder_f"
+            android:textOn="@string/reminder_f"
+            android:textSize="18sp" />
+
+        <ToggleButton
+            android:id="@+id/togglebutton_time6"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/toggle_week_selector"
+            android:textColor="#fff"
+            android:textOff="@string/reminder_sa"
+            android:textOn="@string/reminder_sa"
+            android:textSize="18sp" />
+
+        <ToggleButton
+            android:id="@+id/togglebutton_time7"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/toggle_week_selector"
+            android:textColor="#fff"
+            android:textOff="@string/reminder_su"
+            android:textOn="@string/reminder_su"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dip"
+        android:gravity="left"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:text="@string/remind_time"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="80dip"
+        android:layout_height="30dip"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:background="@mipmap/remind_time_bg"
+        android:gravity="center"
+        android:text="00:00"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="25dp"
+        android:background="@mipmap/btn_ok"
+        android:clickable="true"
+        android:onClick="btn_modifypwd_clicked"
+        android:textColor="#fff"
+        android:textSize="22dip"
+        android:visibility="visible" />
+</LinearLayout>

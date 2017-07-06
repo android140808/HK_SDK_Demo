@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_activity_color"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="false"
+        android:scrollbarStyle="outsideOverlay">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:layout_marginRight="30dip"
+            android:layout_marginTop="5dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dip"
+                android:clickable="false"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/et_reg_username"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@android:color/white"
+                    android:hint="@string/reg_name"
+                    android:paddingLeft="15dp"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <cn.appscomm.l38t.UI.checkbox.MutlRadioGroup
+                android:id="@+id/mrp_sex"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:layout_marginTop="5dip"
+                android:clickable="true"
+                android:gravity="left"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbtn_male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="@android:color/white"
+                        android:button="@drawable/rbn_status"
+                        android:paddingLeft="10dp"
+                        android:text="@string/reg_male"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbtn_female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="15dp"
+                        android:button="@drawable/rbn_status"
+                        android:paddingLeft="10dp"
+                        android:text="@string/reg_female"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </cn.appscomm.l38t.UI.checkbox.MutlRadioGroup>
+
+
+            <cn.appscomm.l38t.UI.checkbox.MutlRadioGroup
+                android:id="@+id/mrp_unit"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:layout_marginTop="5dip"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="7dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal">
+
+
+                    <RadioButton
+                        android:id="@+id/rbtn_unit_metric"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="15dp"
+                        android:button="@drawable/rbn_status"
+                        android:paddingLeft="10dp"
+                        android:text="@string/reg_unit_metric"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal">
+
+
+                    <RadioButton
+                        android:id="@+id/rbtn_unit_us"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="15dp"
+                        android:button="@drawable/rbn_status"
+                        android:paddingLeft="10dp"
+                        android:text="@string/reg_unit_us"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+
+            </cn.appscomm.l38t.UI.checkbox.MutlRadioGroup>
+            <!-- 身高 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/rl_height"
+                    android:layout_width="0px"
+                    android:layout_height="40dip"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="5dip"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_height"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="30dp"
+                        android:gravity="left"
+                        android:hint="@string/reg_height"
+                        android:singleLine="true"
+                        android:textColor="#000"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/iv_info_height"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@mipmap/reg_info" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_weight"
+                    android:layout_width="0px"
+                    android:layout_height="40dip"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="5dip"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:clickable="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_weight"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="30dp"
+                        android:gravity="left"
+                        android:hint="@string/reg_weight"
+                        android:singleLine="true"
+                        android:textColor="#000"
+                        android:textColorHint="@android:color/darker_gray"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/ic_info_weight"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@mipmap/reg_info" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_birthday"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:layout_marginTop="5dip"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_reg_birthday"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:gravity="center_vertical"
+                    android:hint="@string/reg_birthday"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColorHint="@android:color/darker_gray"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_reg"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dip"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:background="@mipmap/btn_ok"
+            android:textColor="#fff"
+            android:textSize="22dip" />
+    </LinearLayout>
+</RelativeLayout>

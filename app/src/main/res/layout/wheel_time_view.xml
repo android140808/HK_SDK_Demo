@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+    <!-- android:background="#F0F0F0" -->
+
+    <!--android:background="@drawable/btn_style_alert_dialog_background"-->
+    <LinearLayout
+        android:id="@+id/pop1_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/pop2_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="horizontal">
+            <!--android:background="@drawable/cancel"-->
+            <Button
+                android:id="@+id/timeWheelCancel"
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="0dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="@string/cancle"
+                android:textStyle="bold"
+                android:textColor="@color/header_bg_color"
+                android:textSize="18sp" />
+
+            <!--android:background="@drawable/login_btn_selector"-->
+            <Button
+                android:id="@+id/timeWheelSave"
+                android:layout_width="75dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+
+                android:layout_marginLeft="0dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:textColor="@color/header_bg_color"
+                android:textSize="18sp"
+                android:text="@string/sure"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <!--android:background="@drawable/btn_style_alert_dialog_background"-->
+        <LinearLayout
+            android:id="@+id/pop_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:background="@color/gray2"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+
+            >
+
+
+            <kankan.wheel.widget.WheelView
+                android:id="@+id/wheel_hour"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <kankan.wheel.widget.WheelView
+                android:id="@+id/wheel_minute"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+
+
+    <!-- <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0F0F0"
+        android:padding="20dp"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            >
+
+              <kankan.wheel.widget.WheelView
+                  android:id="@+id/hour"
+                android:layout_height="wrap_content"
+                android:layout_width="280dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout> -->

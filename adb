@@ -1,0 +1,1 @@
+link /Users/Bingo/Desktop/AndroidStudioSDK/sdk/platform-tools/adb

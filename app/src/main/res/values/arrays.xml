@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="week_desc">
+        <item>M</item>
+        <item>TU</item>
+        <item>W</item>
+        <item>TH</item>
+        <item>F</item>
+        <item>SA</item>
+        <item>SU</item>
+    </string-array>
+
+    <string-array name="week_english">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="main_menus">
+        <item> Device </item>
+        <!-- <item> Reminders </item> -->
+        <!-- <item> Find friends </item> -->
+        <item> Goals </item>
+        <item> Settings </item>
+        <item> Account </item>
+        <!-- <item> Share </item> -->
+        <item> Feedback </item>
+    </string-array>
+
+    <string-array name="main_menus_10c">
+        <item> Device </item>
+        <item> Reminders </item>
+        <!-- <item> Find friends </item> -->
+        <item> Goals </item>
+        <item> Settings </item>
+        <item> Account </item>
+        <!-- <item> Share </item> -->
+        <item> Feedback </item>
+    </string-array>
+
+    <string-array name="main_menus_young">
+        <item> Device </item>
+        <item> Reminders </item>
+        <item> Goals </item>
+        <item> Workout </item>
+        <item> Settings </item>
+        <item> Account </item>
+        <item> Feedback </item>
+    </string-array>
+
+    <string-array name="main_menus_common">
+        <item> Device </item>
+        <item> Reminders </item>
+        <item> Workout </item>
+        <item> Find friends </item>
+        <item> Goals </item>
+        <item> Settings </item>
+        <item> Account </item>
+        <item> Share </item>
+        <item> Feedback </item>
+    </string-array>
+
+    <string-array name="main_advanced_10">
+        <item> Units </item>
+        <item> Notifications </item>
+        <item> Preset Sleep </item>
+        <item> System Information </item>
+        <item> About Us </item>
+    </string-array>
+
+    <string-array name="main_advanced_young">
+        <item> Units </item>
+        <item> Notifications </item>
+        <item> Heart-Rate </item>
+        <item> Watch Face </item>
+        <item> Camera </item>
+        <item> Inactivity Alert </item>
+        <item> Vibration </item>
+        <item> Preset Sleep </item>
+        <item> System Information </item>
+        <item> About Us </item>
+    </string-array>
+
+    <string-array name="main_advanced_common">
+        <item> Units </item>
+        <item> Notifications </item>
+        <item> Heart-Rate </item>
+        <item> Watch Face </item>
+        <item> Camera </item>
+        <item> Inactivity Alert </item>
+        <item> Vibration </item>
+        <item> Preset Sleep </item>
+        <item> System Information </item>
+        <item> About Us </item>
+    </string-array>
+
+
+    <string-array name="device_time_formats">
+        <item>TIME+BATTERY+HEART RATE\n24-H</item>
+        <item>TIME+BATTERY+HEART RATE\n12-H</item>
+        <item>TIME+DATE+BATTERY+HEART RATE\n24-H</item>
+        <item>TIME+DATE+BATTERY+HEART RATE\n12-H</item>
+        <item>VERTICAL\nTIME+DATE+BATTERY\n12-H</item>
+        <item>VERTICAL\nTIME+DATE+BATTERY\n24-H </item>
+        <item>VERTICAL\nTIME+DATE+BATTERY+HEART RATE\n12-H</item>
+        <item>VERTICAL\nTIME+DATE+BATTERY+HEART RATE\n24-H</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:layout_marginTop="100dip"
+        android:orientation="vertical">
+
+        <cn.appscomm.l38t.UI.edit.AutoDelEditText
+            android:id="@+id/et_login_email"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/edit_white_bg"
+            android:drawableLeft="@mipmap/account_icon"
+            android:drawablePadding="5dp"
+            android:hint="@string/login_email"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <cn.appscomm.l38t.UI.edit.AutoDelEditText
+            android:id="@+id/et_login_password"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/edit_white_bg"
+            android:drawableLeft="@mipmap/lock_ico"
+            android:drawablePadding="5dp"
+            android:hint="@string/login_password"
+            android:maxLength="16"
+            android:password="true"
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/ll_logininfo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@mipmap/btn_ok"
+            android:textColor="#fff"
+            android:textSize="22dip" />
+
+        <TextView
+            android:id="@+id/tv_login_forgot_password"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dip"
+            android:autoText="false"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="@string/login_forgot_password"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

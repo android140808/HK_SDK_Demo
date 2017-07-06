@@ -1,0 +1,228 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.appscomm.l38t"
+    android:installLocation="auto">
+
+    <!-- 往SDCard读、写入数据权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 蓝牙设备权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!-- 网络访问 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 短信操作 -->
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <!-- 来电 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!--后台到前台-->
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+
+    <!--振动和响铃-->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- 拍照-->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <!-- android:xlargeScreens="true" -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name="cn.appscomm.l38t.app.GlobalApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="cn.appscomm.l38t.activity.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="cn.appscomm.l38t.activity.WelcomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.appscomm.l38t.activity.WelcomeYQActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.appscomm.l38t.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="cn.appscomm.l38t.activity.RegisterUserInfoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="cn.appscomm.l38t.activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.appscomm.l38t.activity.TurnOnBluetoothActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.appscomm.l38t.activity.EnsureDeviceNearbyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.appscomm.l38t.activity.DeviceScanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.appscomm.l38t.activity.BindDeviceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.appscomm.l38t.activity.SetUpDeviceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.appscomm.l38t.activity.DeviceChooseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.appscomm.l38t.activity.UnbindDeviceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.appscomm.l38t.activity.DeviceInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.appscomm.l38t.activity.FeedbackActivity"
+            android:screenOrientation="portrait" />
+        <!--<activity-->
+        <!--android:name="cn.appscomm.l38t.activity.setting.AdvancedActivity"-->
+        <!--android:launchMode="singleTop"-->
+        <!--android:screenOrientation="portrait" />-->
+
+        <activity
+            android:name="cn.appscomm.l38t.activity.setting.HelpActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="no.nordicsemi.android.ota.activity.DfuNotificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="no.nordicsemi.android.ota.activity.DfuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="no.nordicsemi.android.ota.activity.DfuActivity2"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <!--
+                AuthorizeAdapter表示一个继承自cn.sharesdk.framework.authorize.AuthorizeAdapter
+                的类，这个类可以监听到页面的生命周期，也可以获取授权页面的各种UI控件。
+                开发者可以通过继承AuthorizeAdapter，重写其方法，并获取各种UI来自定义这个页面的行为。
+            -->
+            <meta-data
+                android:name="AuthorizeAdapter"
+                android:value="cn.sharesdk.onekeyshare.MyAuthorizeAdapter" />
+
+            <!--
+                QZoneWebShareAdapter表示一个继承自cn.sharesdk.tencent.qzone.QZoneWebShareAdapter
+                的类，这个类可以监听到页面的生命周期，也可以获QQ空间网页分享权页面的各种UI控件。
+                开发者可以通过继承QZoneWebShareAdapter，重写其方法，并获取各种UI来自定义这个页面的行为。
+            <meta-data android:name="QZoneWebShareAdapter" android:value="cn.sharesdk.demo.MyQZoneWebShareAdapter" />
+            <meta-data android:name="QQWebShareAdapter" android:value="cn.sharesdk.demo.MyQQWebShareAdapter" />
+            -->
+
+            <!--
+                Dropbox的SSO功能需要在此处添加一个对ACTION_VIEW事件的过滤器，其中的scheme是
+                “db-”前缀再开发者应用的加上appKey。如果此过滤器不设置，则不能完成SSO功能授权
+            -->
+            <intent-filter>
+                <data android:scheme="db-7janx53ilz11gbs" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <intent-filter>
+                <data android:scheme="tencent100371282" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <!-- 调用新浪原生SDK，需要注册的回调activity -->
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="cn.appscomm.l38t.activity.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service
+            android:name="no.nordicsemi.android.ota.service.DfuService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="no.nordicsemi.android.action.DFU_UPLOAD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <!--空中升级服务-->
+        <service
+            android:name="no.nordicsemi.android.ota.service.DFUUpdateService"
+            android:enabled="true" />
+        <!--获取缓存的服务-->
+        <service android:name=".service.GetServiceData" />
+        <service android:name=".service.Query5YearData" />
+        <!--通知守护服务-->
+        <service android:name=".service.NotificationProtect" />
+
+        <service
+            android:name="cn.appscomm.push.AppsCommPushService"
+            android:enabled="true" />
+        <service
+            android:name="cn.appscomm.push.NotificationObserver"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.appscomm.bluetooth.manage.BluetoothService"
+            android:enabled="true" />
+        <service
+            android:name="cn.appscomm.uploaddata.SyncDataService"
+            android:enabled="true" />
+        <!-- 蒲公英app id -->
+        <meta-data
+            android:name="PGYER_APPID"
+            android:value="cd7feff76a6f205ef52da17ae971b95e" />
+    </application>
+
+</manifest>

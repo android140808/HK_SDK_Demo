@@ -1,0 +1,414 @@
+<resources>
+    <string name="app_name">inHealth+</string>
+    <string name="app_title_name">Her</string>
+    <string name="app_big_name">inHealth+</string>
+    <!--application-->
+    <string name="app_crash_tip">Opps,crash</string>
+    <string name="exit_app">Do you want to exit ？</string>
+    <string name="send_email_title">[inHealth+ Android APP]-Help request</string>
+    <string name="send_email_replace">APP</string>
+    <string name="send_email_content"></string>
+    <string name="send_email_app_choose">Choose send email application</string>
+
+    <string name="searching_for_device">searching for devices</string>
+    <!--全局-->
+    <string name="tips">Information</string>
+    <string name="sure">ok</string>
+    <string name="cancle">cancel</string>
+    <string name="exit">exit</string>
+    <string name="successful">Successful</string>
+    <string name="failed">Failed</string>
+    <string name="loading">loading...</string>
+    <string name="searching">Searching...</string>
+    <string name="connecting">connecting...</string>
+    <string name="setting">setting...</string>
+    <string name="syncting">syncing...</string>
+    <string name="sync_to_device">Synchronize to Device? </string>
+    <string name="setting_success">Successful</string>
+    <string name="setting_failed">failed</string>
+    <string name="set_success">setting ok</string>
+    <string name="set_failed">setting fail</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="done">Done</string>
+    <string name="delete">Delete</string>
+    <string name="every_day">Everyday</string>
+    <string name="sunday">Sun</string>
+    <string name="saturday">Sat</string>
+    <string name="friday">Fri</string>
+    <string name="thursday">Thu</string>
+    <string name="wednesday">Wed</string>
+    <string name="tuesday">Tues</string>
+    <string name="monday">Mon</string>
+    <string name="no_more_data">No more data</string>
+    <!--actiity 标题-->
+    <string name="title_sign_up">Sign Up</string>
+    <string name="title_login">Login</string>
+    <string name="title_forgot_password">Forgot Password</string>
+    <string name="title_turn_on_bluetooth">Setup a new device</string>
+    <string name="title_setup_new_device">Setup a new device</string>
+    <string name="title_setup_device_type">Setup device type</string>
+    <string name="title_device">Device</string>
+    <string name="title_device_info">Device Info</string>
+    <string name="title_reminds">Reminders</string>
+    <string name="title_goal">Goals</string>
+    <string name="title_account">Account</string>
+    <string name="title_feedback">Feedback</string>
+    <string name="title_change_password">Change Password</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_find_friends">Find Friends</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_my_profile">My Profile</string>
+    <string name="title_advanced">Settings</string>
+    <string name="title_update">Update</string>
+    <!--http code-->
+    <string name="http_network_failed">no network,check your device is connected to the network.</string>
+    <string name="http_response_failed">failed</string>
+    <string name="http_response_success">Success!Please check your email.</string>
+    <!--push-->
+    <string name="open_notification_tip">please grant notification read permissions.</string>
+
+    <!--account-->
+    <string name="btn_login">Login in</string>
+    <string name="btn_reg">Sign Up</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_forgot_password"><u>Forgot Password</u></string>
+    <string name="reg_sex">  Gender</string>
+    <string name="reg_bmi">  BMI</string>
+    <string name="reg_email">  Email</string>
+    <string name="reg_phone">Country china(+86)</string>
+    <string name="reg_mobile"> Mobilephone</string>
+    <string name="reg_password">  Password</string>
+    <string name="reg_message_code"> message code</string>
+    <string name="reg_verify"> Verify</string>
+    <string name="password_length_over">Please input password between 6 to 16 characters</string>
+    <string name="password_null">Must input password</string>
+    <string name="not_valid_verify_code">Not a valid message code</string>
+    <string name="not_valid_phone">Not a valid phone number</string>
+    <string name="email_length_over">Please input Email less 30 characters</string>
+    <string name="not_valid_email">Not a valid email</string>
+    <string name="email_null">Must input email</string>
+    <string name="account_null">Must input email</string>
+    <string name="get_verify_code_tip">Your verification code will be sent to:\n&#160;&#160;%s\nStandard text messaging rates apply.</string>
+    <string name="get_verfi_code_success">a verification code has been sent to your phone.</string>
+    <string name="get_verfi_code_fail">request a verification code failed.</string>
+    <string name="reg_name">Name</string>
+    <string name="reg_male">Male</string>
+    <string name="reg_female">Female</string>
+    <string name="reg_height">Height</string>
+    <string name="reg_weight">Weight</string>
+    <string name="reg_birthday">Birthday</string>
+    <string name="reg_unit_us">Lb/Mile</string>
+    <string name="reg_unit_metric">Kg/Km</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="unit_ft_in">ft/in</string>
+    <string name="unit_cm">cm</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_lbs">lbs</string>
+    <string name="reg_name_null">Must input name</string>
+    <string name="reg_height_null">Must input height</string>
+    <string name="reg_weight_null">Must input weight</string>
+    <string name="reg_birthday_null">Must input birthday</string>
+    <string name="show_height_tips">We use  height to determine your step  length</string>
+    <string name="show_weight_tips">We use  weight to calculate the calories you burn</string>
+    <string name="change_password">Change Password</string>
+    <string name="button_logout">Log out</string>
+    <string name="logout">Log out?</string>
+    <string name="current_pwd">Enter Current Password</string>
+    <string name="new_pwd">Enter New Password</string>
+    <string name="confirm_password">Confirm New Password</string>
+    <string name="current_password_null">Must input current password</string>
+    <string name="new_password_null">Must input new password</string>
+    <string name="confirm_password_null">Must input confirm password</string>
+    <string name="confirm_password_error">Verify that the password is not consistent with the new password</string>
+    <string name="change_password_ok">Change password is successful,please relogin!</string>
+    <!--main activity-->
+    <string name="menu">Menu</string>
+    <string name="sleep_mode">SLEEP MODE</string>
+    <string name="connected"> Connected</string>
+    <string name="disconnected"> Disconnected</string>
+    <string name="heatrbeat"> HeartBeat</string>
+    <string name="mood"> Mood</string>
+    <string name="tired"> Tired</string>
+    <string name="your_current_mood">your current mood is&#160;&#160;</string>
+    <string name="your_current_tired">your current tired is&#160;&#160;</string>
+    <string name="your_current_heart">your current heart rate is&#160;&#160;</string>
+    <string name="friends">&#160;Friends</string>
+    <string name="world">&#160;World</string>
+    <string name="add_friend">Add&#160;Friend</string>
+    <string name="connect_first">connect first</string>
+    <string name="sync_data_fail">sync fail</string>
+    <string name="sync_data_ok">sync ok</string>
+    <!--目标与设备状态-->
+    <string name="steep_descr">STEPS \nTAKEN</string>
+    <string name="distance_descr">Kilometres</string>
+    <string name="distance_descr_miles">Miles</string>
+    <string name="caloris_descr">KCAL \nBURNED</string>
+    <string name="sport_descr">SPORT \nTIME</string>
+    <string name="sleep_descr">SLEPT \nTIME</string>
+    <string name="steep_name">Steps</string>
+    <string name="distance_name">Distance</string>
+    <string name="caloris_name">Calories</string>
+    <string name="sport_name">Sport</string>
+    <string name="sleep_name">Sleep</string>
+    <string name="unit_steps">Steps</string>
+    <string name="unit_distance">Kilometres</string>
+    <string name="unit_distance_miles">Miles</string>
+    <string name="unit_calories">Kcal</string>
+    <string name="unit_sleep">Hours</string>
+    <string name="unit_activetime">Minute</string>
+    <string name="bar_goal">Goal</string>
+    <!--单位-->
+    <string name="km">KM</string>
+    <string name="minutes">MINUTES</string>
+
+    <!--设备显示名-->
+    <string name="device_name_unbind">Her</string>
+    <string name="device_name_lfo1a">BASIC</string>
+    <string name="device_name_lfo2a">H&#160;&#160;R</string>
+
+    <!--设备绑定-->
+    <string name="searching_for">Searching for&#160;</string>
+    <string name="turn_on_bluetooth_tips">Enable Bluetooth on your Android device</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="ensure_device_nearby_tips">Please ensure that the equipment nearby</string>
+    <string name="select_the_device">Select the device</string>
+    <string name="search">Search</string>
+    <string name="connect_time_out">connect device time out!</string>
+    <string name="no_found_device">Did not found any bluetooth device!</string>
+    <string name="no_bind_device">Did not bind the bluetooth device!</string>
+    <string name="binding_device_tips">Please Press the button to comfirm pair</string>
+    <string name="binding_device_tips_10c">Please double tapping on the equipment</string>
+    <string name="binding_device_tips_young">Tap Bluetooth icon on your device\'s screen \'√\'</string>
+    <string name="bing_failed">Binding failure! Please try again</string>
+    <string name="bing_successful">The Binding is successful</string>
+    <!--心率类型-->
+    <string name="heart_rate_very_slow">VerySlow</string>
+    <string name="heart_rate_slow">Slow</string>
+    <string name="heart_rate_normal">Normal</string>
+    <string name="heart_rate_fast">Fast</string>
+    <string name="heart_rate_very_fast">VeryFast</string>
+    <!--心情类型-->
+    <string name="mood_calm">Calm</string>
+    <string name="mood_moderate">Moderate</string>
+    <string name="mood_depressed">Depressed</string>
+    <!--疲劳类型-->
+    <string name="tired_energetic">Energetic</string>
+    <string name="tired_moderate">Moderate</string>
+    <string name="tired_slight">Slight</string>
+    <string name="tired_serious">Serious</string>
+    <!--心率-->
+    <string name="bpm">bpm</string>
+    <string name="goal">Goal</string>
+    <string name="heart_bpm">bpm</string>
+    <string name="heart_avg">Average</string>
+    <string name="heart_max">Max</string>
+    <string name="heart_min">Min</string>
+    <!--设备信息-->
+    <string name="reset_device">Reset device</string>
+    <string name="reset_device_tips">Reset device?</string>
+    <string name="reset_device_context">This operation will delete all your activity data and restore devices to its original settings.</string>
+    <string name="debug_info">Debug</string>
+    <string name="unbinddevice">Unpair device</string>
+    <string name="binddevice">Setup a new device</string>
+    <string name="unbinddevice_tips">Unbind device?</string>
+    <string name="device_info">Device Info</string>
+    <string name="firmware_version">Update Firmware Version:</string>
+    <string name="imei">IMEI:</string>
+    <string name="unknown">unknown</string>
+    <string name="device_version_get_failed">Get device version failed,retry?</string>
+    <string name="userUID_wrong">This device has been bound by other people</string>
+    <string name="last_updated">Currently is the latest version</string>
+    <string name="updateFw_tips">There is a new version(%s) to update</string>
+    <!--提醒-->
+    <string name="reminder_tips1">You can set up to 6 daily reminders</string>
+    <string name="reminder_tips2">Choose the type of reminder</string>
+    <string name="reminder_tips3">Enter the preferred time and day</string>
+    <string name="reminder_tips4_screen">Once the reminder time is reached, the device will gently vibrate and display the corresponding icon to alert you</string>
+    <string name="reminder_tips4">Once the reminder time is reached, the device will gently vibrate to alert you</string>
+    <string name="add_new_reminder">ADD A NEW REMINDER</string>
+    <string name="remind_syncting">remind syncing</string>
+    <string name="remind_sync_ok">remind sync successful</string>
+    <string name="remind_sync_failed">remind sync failed</string>
+    <string name="remind_num_over">More than 6 reminders</string>
+    <string name="remind_time">Time</string>
+    <string name="remainds_type">Reminder type</string>
+    <string name="reminder_m">M</string>
+    <string name="reminder_tu">TU</string>
+    <string name="reminder_w">W</string>
+    <string name="reminder_th">TH</string>
+    <string name="reminder_f">F</string>
+    <string name="reminder_sa">SA</string>
+    <string name="reminder_su">SU</string>
+    <string name="repeat">Custom Repeat</string>
+    <string name="add_note">Add a note</string>
+    <string name="remind_type_sport">Sport</string>
+    <string name="remind_type_sleep">Sleep</string>
+    <string name="remind_type_eat">Eat</string>
+    <string name="remind_type_medicine">Medicine</string>
+    <string name="remind_type_wake_up">Wake up</string>
+    <string name="remind_type_custom">Meeting</string>
+    <string name="select_remind_type">Please select reminder type</string>
+    <string name="select_remind_day">Select the day you want the reminder to repeat</string>
+    <string name="remind_num_over_max">No more than 6 reminders</string>
+    <string name="remind_time_same">Time can\'t repeat!</string>
+
+    <!--目标-->
+    <string name="goal_steps">Step Goal</string>
+    <string name="goal_distance">Distance Goal</string>
+    <string name="goal_active_minutes">Active Minutes Goal</string>
+    <string name="goal_calories">Calories Goal</string>
+    <string name="goal_sleep">Sleep Goal in Hours</string>
+
+    <!--朋友圈-->
+    <string name="no_friends_tip">no friends. go to add ?</string>
+    <string name="find_friend_enter_tip">Enter name or email address</string>
+    <string name="find_friends_no_one_tip"> find no one,please check your input or try another one.</string>
+    <string name="wants_to_be_your_friends">wants to be your friends</string>
+    <string name="cant_add_yourself">cant add yourself</string>
+    <string name="invited">invited</string>
+
+    <!--用户中心-->
+    <string name="personal_best">PERSONAL BEST</string>
+    <string name="daily_average">DAILY AVERAGE</string>
+    <string name="unit_STEPS">STEPS</string>
+    <string name="unit_CALORIES">CALORIES</string>
+    <string name="unit_KILOMETERS">KM</string>
+    <string name="unit_MINUTES">MINUTES</string>
+    <string name="unfriend_tips">Are you sure you want to unfriend</string>
+
+    <!--设置-->
+    <string name="pound_miles">Pounds &amp; miles</string>
+    <string name="cent_kilometers">Kilograms &amp; kilometers</string>
+    <string name="units">Units</string>
+    <string name="notifications">Notifications</string>
+    <string name="heart_Rate">Heart-Rate</string>
+    <string name="preset_Sleep">Preset Sleep</string>
+    <string name="time_Format">Time Format</string>
+    <string name="restore_factory">Restore Factory</string>
+    <string name="help">System Information</string>
+    <string name="about_us">About Us</string>
+    <string name="FAQ">FAQ</string>
+    <string name="app_version">App Version:</string>
+    <string name="firmware_versions">Firmware Version:</string>
+    <string name="watch_id">D/N:</string>
+    <string name="notice_sms">SMS</string>
+    <string name="notice_email">E-MAIL</string>
+    <string name="notice_social">SOCIAL MEDIA</string>
+    <string name="notice_event">CALENDAR EVENT</string>
+    <string name="notice_anti_lost">ANTI-LOST</string>
+    <string name="notice_calls">CALLS</string>
+    <string name="notice_missed_calls">MISSED CALLS</string>
+    <string name="restore_factory_tips">Are you sure you want to restore factory?</string>
+    <string name="restore_factory_success">Device restore factory successful,go to rebind?</string>
+    <!--心率设置-->
+    <string name="auto_track">Auto Track</string>
+    <string name="auto_track_select_time_first">select a time first.</string>
+    <string name="auto_track_set_fail">set failed!</string>
+    <string name="auto_track_set_ok">set ok!</string>
+    <string name="auto_track_query_fail">query failed!</string>
+    <string name="auto_track_query_ok">query ok!</string>
+    <string name="frequency">Frequency</string>
+    <string name="minutes_small">minutes</string>
+    <string name="range_alert">HR Range Alert</string>
+    <string name="low_limit">Low HR Limit</string>
+    <string name="high_limit">High HR Limit</string>
+
+
+    <!-- 紫外线设置 -->
+    <string name="uv_ray">UV Ray</string>
+    <string name="uv_ray_lel1">The current uv intensity is too low</string>
+    <string name="uv_ray_lel2">The current uv intensity is low</string>
+    <string name="uv_ray_lel3">The current uv intensity is middle</string>
+    <string name="uv_ray_lel4">The current uv intensity is hight</string>
+    <string name="uv_ray_lel5">The current uv intensity is too hight</string>
+    <!-- app升级设置 -->
+    <string name="updateAPP_tips">There is a new version to update</string>
+    <!--预设睡眠-->
+    <string name="preset_sleep_disable">Auto sleep</string>
+    <string name="preset_sleep_enable">Enable auto sleep</string>
+    <string name="preset_sleep_bedtime">Bed Time</string>
+    <string name="preset_sleep_awaketime">Awake Time</string>
+    <string name="sleep_time_same_failed">sleeping time and waking time can not be the same</string>
+    <!--画图部分-->
+    <string name="step_desc">STEPS</string>
+    <string name="calories_desc">CALORIES BURNED</string>
+    <string name="distance_desc">DISTANCE</string>
+    <string name="activity_desc">MINUTES OF ACTIVITY</string>
+    <string name="sleep_desc">SLEEP</string>
+    <string name="bar_title_steps">STEPS TAKEN</string>
+    <string name="bar_title_distance">DISTANCE </string>
+    <string name="bar_title_calories">CALORIES</string>
+    <string name="bar_title_sleep">SLEPT</string>
+    <string name="bar_unit_steps">Steps</string>
+    <string name="bar_unit_distance">Kilometers</string>
+    <string name="bar_unit_distance_miles">Miles</string>
+    <string name="bar_unit_calories">Kcal</string>
+    <string name="bar_unit_sleep">Hours</string>
+    <string name="bar_unit_activetime">Minute</string>
+    <string name="bar_unit_minutes">MINUTES</string>
+    <string name="light_sleep">Light Sleep</string>
+    <string name="deep_sleep">Deep sleep</string>
+    <string name="awake_sleep">awake</string>
+    <string name="draw_step_subtitle">STEPS</string>
+    <string name="draw_calories_subtitle">Kcal</string>
+    <string name="draw_sleep_subtitle">AWAKENED</string>
+    <string name="draw_distance_miles_subtitle">MILES</string>
+    <string name="draw_distance_km_subtitle">KILOMETERS</string>
+    <string name="draw_activity_subtitle">MINUTES OF ACTIVITY</string>
+    <string name="draw_heart_rate_subtitle">BPM</string>
+    <string name="draw_mood_subtitle">Mood</string>
+    <string name="draw_tired_subtitle">Tired</string>
+    <string name="sleeps_hint_hours">h</string>
+    <string name="sleeps_hint_mins">m</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+
+    <!--OTA-->
+    <string name="update_tips">Update in progress\nThis operation may take 5-10 minutes</string>
+    <string name="update_complete">Update Complete</string>
+    <string name="update_fail">Update Failed</string>
+    <string name="invalid_update_url">Invalid update url</string>
+    <string name="update_no_found_device">Did not found any bluetooth device,try rescan?</string>
+    <string name="exit_update_ota">Update in progress!Are you want to exit?</string>
+
+    <!--分享-->
+    <string name="share_content_tips">I just ran %1$s&#160;%2$s and burned %3$s Kcal thanks to my Lefit!</string>
+    <string name="about_us_wechat">Wechat</string>
+    <string name="about_us_weibo">Weibo</string>
+    <string name="about_us_contact_us">Contact us</string>
+
+    <string name="camera">Camera</string>
+    <string name="album">Album</string>
+    <string name="Cancel">Cancel</string>
+    <string name="open_keep_app">Due to the open of \'Don\'t keep activities\'，parts of function cannot be normal used. So we recommend you to click the \'Settings\'  to close \'Don\'t keep activities\' in the \'Developer options\'.</string>
+    <string name="feedback_device">Device</string>
+    <string name="feedback_app">App</string>
+    <string name="feedback_pair">Pair</string>
+    <string name="feedback_other">Other</string>
+    <string name="workout_title">Workouts</string>
+    <string name="recent_workout">Recent workouts</string>
+    <string name="watch_face_title">WatchFace</string>
+    <string name="hour_12">12-H</string>
+    <string name="hour_24">24-H</string>
+    <string name="vibration">Vibration</string>
+    <string name="s_setting_camera_tip">Take photo successful</string>
+    <string name="unsupportCamera">No Camera</string>
+    <string name="no_take_picture">No picture</string>
+    <string name="inactivity_alert">Inactivity Alert</string>
+    <string name="inactivity_alert_interval">Interval</string>
+    <string name="inactivity_alert_start">Start</string>
+    <string name="inactivity_alert_end">End</string>
+
+    <string name="alert_m">M</string>
+    <string name="alert_tu">TU</string>
+    <string name="alert_w">W</string>
+    <string name="alert_th">TH</string>
+    <string name="alert_f">F</string>
+    <string name="alert_sa">SA</string>
+    <string name="alert_su">SU</string>
+
+</resources>

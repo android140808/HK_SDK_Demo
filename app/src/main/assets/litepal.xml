@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="odm3"></dbname>
+    <version value="8"></version>
+    <list>
+        <mapping class="cn.appscomm.l38t.model.database.UserBindDevice"></mapping>
+        <mapping class="cn.appscomm.l38t.model.database.RemindDataModel"></mapping>
+        <mapping class="cn.appscomm.l38t.model.database.DeviceStatusInfo"></mapping>
+        <mapping class="cn.appscomm.l38t.model.database.CountSleepDB"></mapping>
+        <mapping class="cn.appscomm.l38t.model.database.CountSportDB"></mapping>
+        <mapping class="cn.appscomm.l38t.model.database.DaySleepDB"></mapping>
+        <mapping class="cn.appscomm.l38t.model.database.QueryLeaderBoardDB"></mapping>
+        <mapping class="cn.appscomm.l38t.model.database.WorkoutDB"></mapping>
+
+        <mapping class="cn.appscomm.uploaddata.database.SportData"></mapping>
+        <mapping class="cn.appscomm.uploaddata.database.SleepDataDB"></mapping>
+        <mapping class="cn.appscomm.uploaddata.database.HeartDataDB"></mapping>
+        <mapping class="cn.appscomm.uploaddata.database.MoodDataDB"></mapping>
+
+
+    </list>
+</litepal>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawlayout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/layout_main_title"
+            layout="@layout/layout_main_title" />
+
+        <include layout="@layout/layout_main_device_top" />
+
+        <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+            android:id="@+id/sv_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:scrollbars="none">
+
+            <include layout="@layout/layout_main_device_status" />
+        </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/abc_action_bar_content_inset_material"
+            android:paddingLeft="@dimen/abc_action_bar_content_inset_material"
+            android:text="@string/friends"
+            android:textColor="@color/header_bg_color"
+            android:textSize="@dimen/home_tilte_TextSize"
+            android:visibility="gone" />
+
+        <cn.appscomm.l38t.UI.show.LineRankView
+            android:id="@+id/lineRankViewFriends"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:clickable="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_add_friend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/abc_action_bar_content_inset_material"
+            android:clickable="true"
+            android:gravity="right"
+            android:paddingRight="@dimen/abc_action_bar_content_inset_material"
+            android:text="@string/add_friend"
+            android:textColor="@color/header_bg_color"
+            android:textSize="@dimen/home_small_tilte_TextSize"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="@mipmap/bg_main_left"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/menu"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="0dip"
+            android:layout_marginTop="0dp"
+            android:background="@color/header_bg_color" />
+
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>

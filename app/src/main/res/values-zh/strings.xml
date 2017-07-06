@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">inHealth+</string>
+    <string name="app_big_name">inHealth+</string>
+    <!--application-->
+    <string name="app_crash_tip">程序崩溃，我们会在稍后进行处理</string>
+    <string name="exit_app">确定要退出吗？</string>
+    <string name="send_email_title">[inHealth+ 安卓 应用] 反馈</string>
+    <string name="send_email_replace">应用</string>
+    <string name="send_email_content"></string>
+    <string name="send_email_app_choose">请选择发送邮件的应用</string>
+
+    <string name="searching_for_device">搜索设备</string>
+    <!--全局-->
+    <string name="tips">温馨提示</string>
+    <string name="sure">确定</string>
+    <string name="cancle">取消</string>
+    <string name="exit">退出</string>
+    <string name="successful">成功</string>
+    <string name="failed">失败</string>
+    <string name="loading">加载中...</string>
+    <string name="searching">搜索中...</string>
+    <string name="connecting">连接中...</string>
+    <string name="setting">设置中...</string>
+    <string name="syncting">同步中...</string>
+    <string name="sync_to_device">需要同步到设备? </string>
+    <string name="setting_success">成功</string>
+    <string name="setting_failed">失败</string>
+    <string name="set_success">设置成功</string>
+    <string name="set_failed">设置失败</string>
+    <string name="save">保存</string>
+    <string name="edit">编辑</string>
+    <string name="done">完成</string>
+    <string name="delete">删除</string>
+    <string name="every_day">每一天</string>
+    <string name="sunday">星期日</string>
+    <string name="saturday">星期六</string>
+    <string name="friday">星期五</string>
+    <string name="thursday">星期四</string>
+    <string name="wednesday">星期三</string>
+    <string name="tuesday">星期二</string>
+    <string name="monday">星期一</string>
+    <string name="no_more_data">没有更多数据</string>
+    <!--actiity 标题-->
+    <string name="title_sign_up">注 册</string>
+    <string name="title_login">登 录</string>
+    <string name="title_forgot_password">忘记密码</string>
+    <string name="title_turn_on_bluetooth">设备绑定</string>
+    <string name="title_setup_new_device">设备绑定</string>
+    <string name="title_setup_device_type">选择设备类型</string>
+    <string name="title_device">设备</string>
+    <string name="title_device_info">设备信息</string>
+    <string name="title_reminds">提醒</string>
+    <string name="title_goal">目标设置</string>
+    <string name="title_account">个人设置</string>
+    <string name="title_feedback">反馈</string>
+    <string name="title_change_password">修改密码</string>
+    <string name="title_friends">朋友圈</string>
+    <string name="title_find_friends">查找朋友</string>
+    <string name="title_profile">好友信息</string>
+    <string name="title_my_profile">我的中心</string>
+    <string name="title_advanced">设置</string>
+    <string name="title_update">升级</string>
+    <!--http code-->
+    <string name="http_network_failed">无网络，检查你的设备是否已经联网</string>
+    <string name="http_response_failed">失败</string>
+    <string name="http_response_success">成功！请查收邮件中的新密码。</string>
+    <!--push-->
+    <string name="open_notification_tip">请赋予通知读取权限</string>
+
+    <!--account-->
+    <string name="btn_login">登录</string>
+    <string name="btn_reg">注册</string>
+    <string name="login_email">邮箱</string>
+    <string name="login_password">密码</string>
+    <string name="login_forgot_password"><u>忘记密码</u></string>
+    <string name="reg_email">  邮箱</string>
+    <string name="reg_bmi">  体质指数</string>
+    <string name="reg_phone">国家 中国(+86)</string>
+    <string name="reg_mobile"> 手机</string>
+    <string name="reg_password">  密码</string>
+    <string name="reg_message_code"> 验证码</string>
+    <string name="reg_verify"> 验证</string>
+    <string name="password_length_over">请输入6-16位的密码</string>
+    <string name="password_null">密码不能为空</string>
+    <string name="not_valid_verify_code">验证码错误</string>
+    <string name="not_valid_phone">手机号格式错误</string>
+    <string name="email_length_over">邮箱长度超过30位</string>
+    <string name="not_valid_email">邮箱格式错误</string>
+    <string name="email_null">请输入邮箱</string>
+    <string name="account_null">请输入邮箱</string>
+    <string name="get_verify_code_tip">验证码将以短信形式发送到:\n&#160;&#160;&#160;&#160;%s</string>
+    <string name="get_verfi_code_success">验证码已经发送到你的手机上，请注意查收</string>
+    <string name="get_verfi_code_fail">请求验证码失败</string>
+    <string name="reg_sex">性别</string>
+    <string name="reg_name">姓名</string>
+    <string name="reg_male">男</string>
+    <string name="reg_female">女</string>
+    <string name="reg_height">身高</string>
+    <string name="reg_weight">体重</string>
+    <string name="reg_birthday">出生日期</string>
+    <string name="reg_unit_us">英制</string>
+    <string name="reg_unit_metric">公制</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="unit_ft_in">英尺/英寸</string>
+    <string name="unit_cm">厘米</string>
+    <string name="unit_kg">千克</string>
+    <string name="unit_lbs">英磅</string>
+    <string name="reg_name_null">姓名不能为空</string>
+    <string name="reg_height_null">请选择身高</string>
+    <string name="reg_weight_null">请选择体重</string>
+    <string name="reg_birthday_null">请选择出生日期</string>
+    <string name="show_height_tips">我们使用身高来确定你的步长</string>
+    <string name="show_weight_tips">我们用体重来计算消耗的卡路里</string>
+    <string name="change_password">修改密码</string>
+    <string name="button_logout">退出账号</string>
+    <string name="logout">退出账号？</string>
+    <string name="current_pwd">请输入当前密码</string>
+    <string name="new_pwd">请输入新密码</string>
+    <string name="confirm_password">确认新密码</string>
+    <string name="current_password_null">请输入当前密码</string>
+    <string name="new_password_null">请输入新密码</string>
+    <string name="confirm_password_null">请输入确认新密码</string>
+    <string name="confirm_password_error">确认密码与新密码不一致</string>
+    <string name="change_password_ok">修改密码成功，请重新登录！</string>
+    <!--main activity-->
+    <string name="menu">&#160;菜单&#160;</string>
+    <string name="sleep_mode">睡眠模式</string>
+    <string name="connected">&#160;&#160;已连接</string>
+    <string name="disconnected">断开连接</string>
+    <string name="heatrbeat">&#160;&#160;心率</string>
+    <string name="mood">&#160;&#160;心情</string>
+    <string name="tired">疲劳度</string>
+    <string name="your_current_mood">&#160;&#160;</string><!--你当前的心率是-->
+    <string name="your_current_tired">&#160;&#160;</string><!--你当前的心情是-->
+    <string name="your_current_heart">&#160;&#160;</string><!--你当前的疲劳度是-->
+    <string name="friends">朋友圈</string>
+    <string name="world">世界排行榜</string>
+    <string name="add_friend">添加朋友</string>
+    <string name="connect_first">请先连接设备</string>
+    <string name="sync_data_fail">同步数据失败</string>
+    <string name="sync_data_ok">同步数据成功</string>
+    <!--目标与设备状态-->
+    <string name="steep_descr">步</string>
+    <string name="distance_descr">千米</string>
+    <string name="distance_descr_miles">英里</string>
+    <string name="caloris_descr">千卡</string>
+    <string name="sport_descr">分钟</string>
+    <string name="sleep_descr">小时</string>
+    <string name="steep_name">步数</string>
+    <string name="distance_name">距离</string>
+    <string name="caloris_name">卡路里</string>
+    <string name="sport_name">运动时长</string>
+    <string name="sleep_name">睡眠</string>
+    <string name="unit_steps">步</string>
+    <string name="unit_distance">公里</string>
+    <string name="unit_distance_miles">英里</string>
+    <string name="unit_calories">千卡</string>
+    <string name="unit_sleep">小时</string>
+    <string name="unit_activetime">分钟</string>
+    <string name="bar_goal">目标</string>
+    <!--单位-->
+    <string name="km">公里</string>
+    <string name="minutes">分钟</string>
+
+    <!--设备显示名-->
+    <string name="device_name_unbind">Her</string>
+    <string name="device_name_lfo1a">BASIC</string>
+    <string name="device_name_lfo2a">H&#160;R</string>
+
+    <!--设备绑定-->
+    <string name="searching_for">正在搜索</string>
+    <string name="turn_on_bluetooth_tips">设置手机蓝牙为打开状态</string>
+    <string name="error_bluetooth_not_supported">设备不支持蓝牙</string>
+    <string name="ensure_device_nearby_tips">请确认设备在附近</string>
+    <string name="select_the_device">请选择设备</string>
+    <string name="search">搜索</string>
+    <string name="connect_time_out">连接设备超时!</string>
+    <string name="no_found_device">未找到设备!</string>
+    <string name="no_bind_device">未绑定设备</string>
+    <string name="binding_device_tips">请按设备按钮确认绑定</string>
+    <string name="binding_device_tips_10c">请双击设备</string>
+    <string name="binding_device_tips_young"> 请点击设备屏幕的\'√\'</string>
+    <string name="bing_failed">绑定失败，请重试</string>
+    <string name="bing_successful">绑定成功</string>
+    <!--心率类型-->
+    <string name="heart_rate_very_slow">太慢</string>
+    <string name="heart_rate_slow">过慢</string>
+    <string name="heart_rate_normal">正常</string>
+    <string name="heart_rate_fast">过快</string>
+    <string name="heart_rate_very_fast">太快</string>
+    <!--心情类型-->
+    <string name="mood_calm">兴奋</string>
+    <string name="mood_moderate">平和</string>
+    <string name="mood_depressed">消极</string>
+    <!--疲劳类型-->
+    <string name="tired_energetic">不疲劳</string>
+    <string name="tired_moderate">轻度疲劳</string>
+    <string name="tired_slight">中度疲劳</string>
+    <string name="tired_serious">严重疲劳</string>
+    <!--心率-->
+    <string name="bpm">bpm</string>
+    <string name="goal">目标</string>
+    <string name="heart_bpm">次/分</string>
+    <string name="heart_avg">平均心率</string>
+    <string name="heart_max">最高</string>
+    <string name="heart_min">最低</string>
+    <!--设备信息-->
+    <string name="reset_device">恢复出厂设置</string>
+    <string name="reset_device_tips">重置设备?</string>
+    <string name="reset_device_context">此操作将会删除你所有的运动数据和恢复设备到原来的设置.</string>
+    <string name="debug_info">设备信息</string>
+    <string name="unbinddevice">解绑</string>
+    <string name="binddevice">设备绑定</string>
+    <string name="unbinddevice_tips">你确定要解绑吗?</string>
+    <string name="device_info">设备信息</string>
+    <string name="firmware_version">更新固件版本:</string>
+    <string name="imei">IMEI:</string>
+    <string name="unknown">未知</string>
+    <string name="device_version_get_failed">获取设备版本号失败,重新获取?</string>
+    <string name="userUID_wrong">此设备已经被他人绑定</string>
+    <string name="last_updated">当前已是最新版</string>
+    <string name="updateFw_tips">发现新版本(%s),现在去更新?</string>
+    <!--提醒-->
+    <string name="reminder_tips1">你可以设置6种类型的每天提醒</string>
+    <string name="reminder_tips2">选择提醒类型</string>
+    <string name="reminder_tips3">选择时间和日期</string>
+    <string name="reminder_tips4_screen">一旦到提醒时间点,设备会轻轻颤动并显示相应的图标提醒你</string>
+    <string name="reminder_tips4">一旦到提醒时间点,设备会轻轻颤动提醒你</string>
+    <string name="add_new_reminder">添加新的提醒</string>
+    <string name="remind_syncting">提醒同步中</string>
+    <string name="remind_sync_ok">提醒同步成功</string>
+    <string name="remind_sync_failed">提醒同步失败</string>
+    <string name="remind_num_over">最多添加6条提醒</string>
+    <string name="remind_time">提醒时间</string>
+    <string name="remainds_type">提醒类型</string>
+    <string name="reminder_m">周一</string>
+    <string name="reminder_tu">周二</string>
+    <string name="reminder_w">周三</string>
+    <string name="reminder_th">周四</string>
+    <string name="reminder_f">周五</string>
+    <string name="reminder_sa">周六</string>
+    <string name="reminder_su">周日</string>
+    <string name="repeat">提醒日期</string>
+    <string name="add_note">提醒内容</string>
+    <string name="remind_type_sport">运动</string>
+    <string name="remind_type_sleep">睡觉</string>
+    <string name="remind_type_eat">吃饭</string>
+    <string name="remind_type_medicine">吃药</string>
+    <string name="remind_type_wake_up">清醒</string>
+    <string name="remind_type_custom">会议</string>
+    <string name="select_remind_type">请选择提醒事项</string>
+    <string name="select_remind_day">请选择提醒星期</string>
+    <string name="remind_num_over_max">不能超过6条提醒事项</string>
+    <string name="remind_time_same">提醒时间不能重复</string>
+
+    <!--目标-->
+    <string name="goal_steps">步数目标</string>
+    <string name="goal_distance">距离目标</string>
+    <string name="goal_active_minutes">运动时间目标</string>
+    <string name="goal_calories">卡路里目标</string>
+    <string name="goal_sleep">睡眠时间目标</string>
+
+    <!--朋友圈-->
+    <string name="no_friends_tip">您尚未添加任何朋友，去添加？</string>
+    <string name="find_friend_enter_tip">输入名称或者邮箱地址</string>
+    <string name="find_friends_no_one_tip">查询不到任何朋友，请检查账号是否正确或者试试其他账号</string>
+    <string name="wants_to_be_your_friends">请求添加你为好友</string>
+    <string name="cant_add_yourself">不能添加自己</string>
+    <string name="invited">已邀请</string>
+    <!--个人简介-->
+    <string name="personal_best">个人最佳</string>
+    <string name="daily_average">每日平均</string>
+    <string name="unit_STEPS">步</string>
+    <string name="unit_CALORIES">卡路里</string>
+    <string name="unit_KILOMETERS">公里</string>
+    <string name="unit_MINUTES">分钟</string>
+    <string name="unfriend_tips">你确定要删除朋友</string>
+
+    <!--设置-->
+    <string name="pound_miles">英磅 &amp; 英里</string>
+    <string name="cent_kilometers">公斤 &amp; 公里</string>
+    <string name="units">单位</string>
+    <string name="notifications">通知</string>
+    <string name="heart_Rate">心率</string>
+    <string name="preset_Sleep">预设睡眠</string>
+    <string name="time_Format">时间格式</string>
+    <string name="restore_factory">恢复出厂设置</string>
+    <string name="help">系统信息</string>
+    <string name="about_us">关于我们</string>
+    <string name="about_us_wechat">微信</string>
+    <string name="about_us_weibo">微博</string>
+    <string name="about_us_contact_us">联系我们</string>
+    <string name="FAQ">FAQ</string>
+    <string name="app_version">App版本:</string>
+    <string name="firmware_versions">固件版本:</string>
+    <string name="watch_id">D/N:</string>
+    <string name="notice_sms">信息</string>
+    <string name="notice_email">邮箱</string>
+    <string name="notice_social">社交</string>
+    <string name="notice_event">日历事件</string>
+    <string name="notice_anti_lost">防丢失</string>
+    <string name="notice_calls">来电</string>
+    <string name="notice_missed_calls">未接来电</string>
+    <string name="restore_factory_tips">确定要恢复出厂设置吗？</string>
+    <string name="restore_factory_success">设备恢复出厂设置成功，去重新绑定？</string>
+    <!--心率设置-->
+    <string name="auto_track">自动检测</string>
+    <string name="auto_track_select_time_first">请先选择时间</string>
+    <string name="auto_track_set_fail">同步失败</string>
+    <string name="auto_track_set_ok">同步成功</string>
+    <string name="auto_track_query_fail">查询心率失败</string>
+    <string name="auto_track_query_ok">查询心率成功</string>
+    <string name="frequency">频率</string>
+    <string name="minutes_small">分钟</string>
+    <string name="range_alert">心率报警</string>
+    <string name="low_limit">心率低限</string>
+    <string name="high_limit">心率高限</string>
+
+    <!-- 紫外线设置 -->
+    <string name="uv_ray">紫外线</string>
+    <string name="uv_ray_lel1">紫外线弱</string>
+    <string name="uv_ray_lel2">紫外线较弱</string>
+    <string name="uv_ray_lel3">紫外线中等</string>
+    <string name="uv_ray_lel4">紫外线较强</string>
+    <string name="uv_ray_lel5">紫外线很强</string>
+    <!-- app升级设置 -->
+    <string name="updateAPP_tips">发现新版本,现在去更新?</string>
+    <!--预设睡眠-->
+    <string name="preset_sleep_disable">取消自动睡眠</string>
+    <string name="preset_sleep_enable">开启自动睡眠</string>
+    <string name="preset_sleep_bedtime">睡眠时间</string>
+    <string name="preset_sleep_awaketime">清醒时间</string>
+    <string name="sleep_time_same_failed">睡眠时间和清醒时间不能一样</string>
+
+    <!--画图部分-->
+    <string name="step_desc">步数</string>
+    <string name="calories_desc">卡路里</string>
+    <string name="distance_desc">距离</string>
+    <string name="activity_desc">运动</string>
+    <string name="sleep_desc">睡眠</string>
+    <string name="bar_title_steps">步</string>
+    <string name="bar_title_distance">距离</string>
+    <string name="bar_title_calories">卡路里</string>
+    <string name="bar_title_sleep">睡眠</string>
+    <string name="bar_unit_steps">步</string>
+    <string name="bar_unit_distance">公里</string>
+    <string name="bar_unit_distance_miles">英里</string>
+    <string name="bar_unit_calories">千卡</string>
+    <string name="bar_unit_sleep">小时</string>
+    <string name="bar_unit_activetime">分钟</string>
+    <string name="bar_unit_minutes">分钟</string>
+    <string name="light_sleep">浅睡</string>
+    <string name="deep_sleep">深睡</string>
+    <string name="awake_sleep">清醒</string>
+    <string name="draw_step_subtitle">步</string>
+    <string name="draw_calories_subtitle">千卡</string>
+    <string name="draw_sleep_subtitle">清醒</string>
+    <string name="draw_distance_miles_subtitle">英里</string>
+    <string name="draw_distance_km_subtitle">公里</string>
+    <string name="draw_activity_subtitle">分钟</string>
+    <string name="draw_heart_rate_subtitle">BPM</string>
+    <string name="draw_mood_subtitle">心情</string>
+    <string name="draw_tired_subtitle">疲劳</string>
+    <string name="sleeps_hint_hours">时</string>
+    <string name="sleeps_hint_mins">分</string>
+    <string name="day">日</string>
+    <string name="week">周</string>
+    <string name="month">月</string>
+
+    <!--OTA-->
+    <string name="update_tips">升级过程中\n本次操作会花费5-10分钟</string>
+    <string name="update_complete">升级成功</string>
+    <string name="update_fail">升级失败</string>
+    <string name="invalid_update_url">无效更新地址</string>
+    <string name="update_no_found_device">未找到设备,确定重新扫描?</string>
+    <string name="exit_update_ota">当前正在进行升级，确定要退出？</string>
+
+    <!--分享-->
+    <string name="share_content_tips">我刚刚跑了%1$s&#160;%2$s和燃烧了%3$s千卡路里。来自我的Lefit!</string>
+
+    <string name="camera">拍照</string>
+    <string name="album">相册</string>
+    <string name="Cancel">取消</string>
+    <string name="open_keep_app">由于您已开启\'不保留活动\',导致部分功能无法正常使用.我们建议您点击\'设置\'按钮,在\'开发者选项\'中关闭\'不保留活动\'功能.</string>
+
+
+    <string name="feedback_device">设备</string>
+    <string name="feedback_app">应用</string>
+    <string name="feedback_pair">绑定</string>
+    <string name="feedback_other">其他</string>
+    <string name="workout_title">锻炼</string>
+    <string name="recent_workout">最近数据</string>
+    <string name="watch_face_title">表盘</string>
+    <string name="hour_12">12小时制</string>
+    <string name="hour_24">24小时制</string>
+    <string name="vibration">振动</string>
+    <string name="s_setting_camera_tip">拍照成功</string>
+    <string name="unsupportCamera">不支持相机</string>
+    <string name="no_take_picture">没有相片</string>
+    <string name="inactivity_alert">久坐提醒</string>
+    <string name="inactivity_alert_interval">间隔</string>
+    <string name="inactivity_alert_start">开始</string>
+    <string name="inactivity_alert_end">结束</string>
+
+    <string name="alert_m">一</string>
+    <string name="alert_tu">二</string>
+    <string name="alert_w">三</string>
+    <string name="alert_th">四</string>
+    <string name="alert_f">五</string>
+    <string name="alert_sa">六</string>
+    <string name="alert_su">日</string>
+
+</resources>
