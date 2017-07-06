@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_edit_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_account_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <cn.appscomm.l38t.UI.show.CircularImage
+                    android:id="@+id/cover_user_photo"
+                    android:layout_width="70dip"
+                    android:layout_height="70dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="15dp" />
+
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="200dp"
+                    android:layout_height="70dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="50dip"
+                    android:background="@null"
+                    android:gravity="center_vertical|right"
+                    android:hint="@string/reg_name"
+                    android:singleLine="true"
+                    android:textColor="@color/header_bg_color"
+                    android:textColorHint="@color/gray"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dip"
+                    android:background="@mipmap/more" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="#cccccc" />
+
+            <!-- 性别 -->
+            <RelativeLayout
+                android:id="@+id/rl_gender"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="0dip"
+                    android:cursorVisible="false"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dip"
+                    android:singleLine="true"
+                    android:text="@string/reg_sex"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_gender"
+                    android:layout_width="150dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="50dip"
+                    android:gravity="center_vertical|right"
+                    android:paddingRight="0dp"
+                    android:text="@string/reg_male"
+                    android:textColor="@color/header_bg_color"
+                    android:textColorHint="@color/gray"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dip"
+                    android:background="@mipmap/more" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="#cccccc" />
+
+            <!-- 性别 -->
+            <RelativeLayout
+                android:id="@+id/rl_height"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="0dip"
+                    android:cursorVisible="false"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dip"
+                    android:singleLine="true"
+                    android:text="@string/reg_height"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_height"
+                    android:layout_width="150dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="50dip"
+                    android:gravity="center_vertical|right"
+                    android:paddingRight="0dp"
+                    android:text="@string/reg_height"
+                    android:textColor="@color/header_bg_color"
+                    android:textColorHint="@color/gray"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dip"
+                    android:background="@mipmap/more" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="#cccccc" />
+
+            <!-- 性别 -->
+            <RelativeLayout
+                android:id="@+id/rl_weight"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="0dip"
+                    android:cursorVisible="false"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dip"
+                    android:singleLine="true"
+                    android:text="@string/reg_weight"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_weight"
+                    android:layout_width="150dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="50dip"
+                    android:gravity="center_vertical|right"
+                    android:paddingRight="0dp"
+                    android:text="@string/reg_weight"
+                    android:textColor="@color/header_bg_color"
+                    android:textColorHint="@color/gray"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dip"
+                    android:background="@mipmap/more" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="#cccccc" />
+            <!-- BMI -->
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:visibility="gone"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="0dip"
+                    android:cursorVisible="false"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dip"
+                    android:singleLine="true"
+                    android:text="@string/reg_bmi"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_bmi"
+                    android:layout_width="150dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="50dip"
+                    android:gravity="center_vertical|right"
+                    android:paddingRight="0dp"
+                    android:text="@string/reg_bmi"
+                    android:textColor="@color/gray1"
+                    android:textColorHint="@color/gray"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dip"
+                    android:background="@mipmap/more"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="#cccccc" />
+            <!-- 邮件 -->
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="0dip"
+                    android:cursorVisible="false"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dip"
+                    android:singleLine="true"
+                    android:text="@string/reg_email"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_email"
+                    android:layout_width="220dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="50dip"
+                    android:gravity="center_vertical|right"
+                    android:paddingRight="0dp"
+                    android:text="@string/reg_email"
+                    android:textColor="@color/gray1"
+                    android:textColorHint="@color/gray"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dip"
+                    android:background="@mipmap/more"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="#cccccc" />
+
+            <!-- 性别 -->
+            <RelativeLayout
+                android:id="@+id/rl_birthday"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="0dip"
+                    android:cursorVisible="false"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dip"
+                    android:singleLine="true"
+                    android:text="@string/reg_birthday"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_birthday"
+                    android:layout_width="150dp"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="50dip"
+                    android:gravity="center_vertical|right"
+                    android:paddingRight="0dp"
+                    android:text="@string/reg_birthday"
+                    android:textColor="@color/header_bg_color"
+                    android:textColorHint="@color/gray"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dip"
+                    android:background="@mipmap/more" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="#cccccc" />
+
+            <RelativeLayout
+                android:id="@+id/rl_change_password"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_white">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="0dip"
+                    android:cursorVisible="false"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dip"
+                    android:singleLine="true"
+                    android:text="@string/change_password"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dip"
+                    android:background="@mipmap/more" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="#cccccc" />
+
+            <Button
+                android:id="@+id/bt_exit"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:background="@mipmap/logout"
+                android:text="@string/button_logout"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

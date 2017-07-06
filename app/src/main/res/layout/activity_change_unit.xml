@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_white"
+    android:orientation="vertical">
+
+    <!-- 长度单位内容  公制 英制 -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_unit_us"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:paddingLeft="10dip"
+                android:text="@string/pound_miles"
+                android:textColor="@android:color/black"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv_unit_us"
+                android:layout_width="@dimen/layout_y_20"
+                android:layout_height="@dimen/layout_y_20"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dip"
+                android:background="@mipmap/select_device2"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="#cccccc" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_unit_metro"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:clickable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:paddingLeft="10dip"
+                android:text="@string/cent_kilometers"
+                android:textColor="@android:color/black"
+                android:textSize="18dip"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/iv_unit_metro"
+                android:layout_width="@dimen/layout_y_20"
+                android:layout_height="@dimen/layout_y_20"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dip"
+                android:background="@mipmap/select_device2"
+                 />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="#cccccc" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

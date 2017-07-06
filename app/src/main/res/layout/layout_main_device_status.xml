@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainDeviceStatus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/uvv"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="紫外线监控开关" />
+
+    <Button
+        android:id="@+id/sleep"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="睡眠监控开关" />
+
+    <Button
+        android:id="@+id/sport"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="计步监控开关" />
+
+    <Button
+        android:id="@+id/led"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="LED开关" />
+
+    <Button
+        android:id="@+id/ota"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="OTA升级" />
+
+    <LinearLayout
+        android:id="@+id/mainStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/abc_action_bar_content_inset_material"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/ll_hear_beat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/heatrbeat"
+                android:textSize="@dimen/home_tilte_TextSize" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dip">
+
+                <TextView
+                    android:id="@+id/tv_heartRateText"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:drawableLeft="@mipmap/heart"
+                    android:drawablePadding="8dip"
+                    android:text="0\nBPM" />
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material"
+                    android:layout_weight="7"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_heartRate_level"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dip"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_height="16dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/heart_rate_level_begin" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_height="16dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/heart_rate_level_center" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_height="16dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/heart_rate_level_center" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_height="16dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/heart_rate_level_center" />
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_height="16dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/heart_rate_level_end" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/hear_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="8dp"
+                        android:text="@string/your_current_heart" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_mood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/abc_action_bar_content_inset_material"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mood"
+                android:textSize="@dimen/home_tilte_TextSize" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dip">
+
+                <ImageView
+                    android:id="@+id/ic_mood"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/mood_1" />
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material"
+                    android:layout_weight="7"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_mood_level"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dip"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="16dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/mood_level_begin" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="16dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/mood_level_center" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="16dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/mood_level_end" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/mood_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="8dp"
+                        android:text="@string/your_current_mood" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_tired"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/abc_action_bar_content_inset_material"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tired"
+                android:textSize="@dimen/home_tilte_TextSize" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="8dip">
+
+                <ImageView
+                    android:id="@+id/ic_tired"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/tired_1" />
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material"
+                    android:layout_weight="7"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_tired_level"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dip"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="16dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/tired_level1" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="16dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/tired_level2" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="16dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/tired_level2" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="16dp"
+                            android:layout_weight="1"
+                            android:background="@mipmap/tired_level3" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tired_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="8dp"
+                        android:text="@string/your_current_tired" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <cn.appscomm.l38t.UI.progress.TitleProgressView
+        android:id="@+id/tp_stpes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <cn.appscomm.l38t.UI.progress.TitleProgressView
+        android:id="@+id/tp_calories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <cn.appscomm.l38t.UI.progress.TitleProgressView
+        android:id="@+id/tp_distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <cn.appscomm.l38t.UI.progress.TitleProgressView
+        android:id="@+id/tp_sleep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <cn.appscomm.l38t.UI.progress.TitleProgressView
+        android:id="@+id/tp_sport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/uv_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_x_20"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="@string/uv_ray"
+            android:textColor="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp">
+
+            <ImageView
+                android:layout_width="@dimen/layout_x_35"
+                android:layout_height="@dimen/layout_y_35"
+                android:src="@mipmap/ultraviolte_rays" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_x_15"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <cn.appscomm.l38t.UI.uv.UVChart
+                    android:id="@+id/uv_progress_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/layout_y_30" />
+
+                <TextView
+                    android:id="@+id/tv_uv_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
